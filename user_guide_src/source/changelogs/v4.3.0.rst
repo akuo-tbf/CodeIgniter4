@@ -109,6 +109,7 @@ Database
 - ``BaseConnection::escape()`` now excludes the ``RawSql`` data type. This allows passing SQL strings into data.
 - The new method ``Forge::dropPrimaryKey()`` allows dropping the primary key on a table. See :ref:`dropping-a-primary-key`.
 - Improved the SQL structure for ``Builder::updateBatch()``. See :ref:`update-batch` for the details.
+- Added ``when()`` and ``whenNot()` methods to conditionally add clauses to the query. See :ref:`BaseBuilder::when() <db-builder-when>` for details.
 
 Model
 =====
